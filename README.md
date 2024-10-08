@@ -85,7 +85,6 @@ Now you can implement the relationships as shown in the ER Diagram:
 Update `server/models.py` to establish the model relationships. Since a
 `HeroPower` belongs to a `Hero` and a `Power`, configure the model to cascade
 deletes.
-
 Set serialization rules to limit the recursion depth.
 
 Run the migrations and seed the database:
